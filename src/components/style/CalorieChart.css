@@ -1,0 +1,82 @@
+.calorie-chart{
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 90%;
+    height: 45%;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chart{
+    width: 45%;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+}
+
+
+.water-consumption{
+    width: 45%;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.water-logo{
+    font-size: 150px;
+    color: rgb(0, 123, 255);
+}
+
+.water-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.water-detail > h4{
+    padding: 0 10px;
+}
+
+.icon{
+    font-size: 35px;
+    color: var(--primary-bg);
+}
+
+.cal-progress{
+  width: 70%;
+  height: 70%;
+}
+
+.CircularProgressbar {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: var(--primary-bg);
+  stroke-linecap: round;
+  -webkit-transition: stroke-dashoffset 0.5s ease 0s;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #d6d6d6;
+  stroke-linecap: round;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: var(--primary-bg);
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}

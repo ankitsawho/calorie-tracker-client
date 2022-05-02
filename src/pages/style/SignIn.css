@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Righteous&display=swap');
+
+.signin-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn{
+    font-weight: 900;
+    padding: 10px !important;
+    border-radius: 50px !important;
+}
+
+.signin-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+    height: 50%;
+    width: 50%;
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+}
+
+.signin-detail{
+    width: 60%;
+}
+
+.signin-detail > h3{
+    margin: 20px 0;
+    font-size: 35px;
+    font-family: 'Potta One', cursive;
+}

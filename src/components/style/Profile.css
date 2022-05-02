@@ -1,0 +1,81 @@
+.profile{
+    width: calc(100vw - 40px);
+    background-color: aliceblue;
+    height: calc(100vh - 100px);
+    margin: 0 20px;
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+}
+
+.profile-container{
+    width: fit-content;
+    padding: 20px;
+}
+
+.main-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-profile > img{
+    border-radius: 50%;
+}
+
+.profile-detail{
+    padding: 20px;
+}
+
+#name{
+    font-size: 20px;
+}
+
+#email{
+    color: rgba(9, 9, 9, 0.591);
+}
+
+.user-details{
+    width: 500px;
+}
+
+#activity{
+    padding: 4px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(182, 217, 247);
+    border-radius: 10px;
+}
+
+#gender{
+    padding: 4px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(182, 217, 247);
+    border-radius: 10px;
+}
+
+table{
+    padding: 20px;
+}
+
+td{ 
+    padding: 10px;
+    font-size: 20px;
+}
+
+.update-btn{
+    background-color: rgb(175, 212, 244) !important;
+    font-size: 20px !important;
+    margin: 0 30px !important;
+}
+
+td input{
+    padding: 4px 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(182, 217, 247);
+    border-radius: 10px;
+}
